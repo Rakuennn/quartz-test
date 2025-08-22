@@ -1,0 +1,57 @@
+package com.codewithpot.store.auth;
+
+import com.codewithpot.store.auth.base.BaseAuthController;
+import com.codewithpot.store.auth.dto.Request.CreateUserRequest;
+import com.codewithpot.store.auth.dto.Request.UpdateUserRequest;
+import com.codewithpot.store.auth.dto.Response.GetUserResponse;
+import com.codewithpot.store.auth.dto.Response.CreateUserResponse;
+import com.codewithpot.store.auth.dto.Response.UpdateUserResponse;
+import com.codewithpot.store.auth.dto.Response.DeleteUserResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.UUID;
+
+@RestController
+@Tag(name = "Auth")
+public class AuthController extends BaseAuthController {
+
+    private final AuthService authService;
+
+    public AuthController(AuthService authService) {
+        this.authService = authService;
+    }
+
+    @GetMapping("auth/get-user")
+    @Override
+    public ResponseEntity<List<GetUserResponse>> getUser() {
+        return ResponseEntity.ok(authService.getUser());
+    }
+
+    @PostMapping("auth/create-user")
+    @Override
+    public ResponseEntity<CreateUserResponse> createUser(
+            @Valid @RequestBody CreateUserRequest req
+    ) {
+        return ResponseEntity.ok(authService.createUser(req));
+    }
+
+    @PutMapping("auth/update-user")
+    @Override
+    public ResponseEntity<UpdateUserResponse> updateUser(
+            @Valid @RequestBody UpdateUserRequest req
+    ){
+        return ResponseEntity.ok(authService.updateUser(req));
+    }
+
+    @DeleteMapping("auth/delete-user/{id}")
+    @Override
+    public ResponseEntity<DeleteUserResponse> deleteUser(
+            @PathVariable("id") UUID id
+    ){
+        return ResponseEntity.ok(authService.deleteUser(id));
+    }
+}
