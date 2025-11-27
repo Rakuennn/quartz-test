@@ -13,6 +13,11 @@ import java.util.List;
 @Data
 @Accessors(chain = true)
 public class RecurringRequest {
+    private String notificationTitle;
+    private String notificationMessage;
+    private RecipientType RecipientType;
+    private String notificationType;
+    private String notificationGroup;
     private RecurrenceType recurrenceType;
     private LocalDateTime startDateTime;
     private LocalDateTime endDateTime;

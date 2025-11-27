@@ -1,0 +1,44 @@
+{
+  "employeeCode": "1030",
+  "email": "tester30@aware.co.th",
+  "evaluation_sessions": [
+    {
+      "date": "2025-11-13",
+      "score": 0.65,
+      "accepted": true,
+      "source_type": "teams_segments",
+      "context": "20251111_Daily_Critical Systems at Risk",
+      "evidence_count": 2,
+      "evidences": [
+        {
+          "evidence_piece": "แล้วก็ของของพี่น้องของพี่น้องที่เมื่อเช้าอัพเดทว่าตัวนี้แคนเซิลไปเนาะ",
+          "score": 0.7,
+          "reasoning": "แสดงถึงการปรับตัวต่อสถานการณ์ที่เปลี่ยนแปลงโดยยอมรับและอัพเดทงานที่ถูกยกเลิก พร้อมปรับแผนการดำเนินงาน",
+          "source_type": "teams_segments"
+        },
+        {
+          "evidence_piece": "เดี๋ยวพี่ขอแชร์แป๊บ",
+          "score": 0.6,
+          "reasoning": "เป็นการตอบสนองแบบเรียลไทม์ต่อความต้องการในที่ประชุม แม้จะเป็นการปรับตัวเล็กน้อยแต่แสดงถึงความยืดหยุ่น",
+          "source_type": "teams_segments"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "score": 0.65,
+      "accepted": true,
+      "source_type": "jira_comment",
+      "context": "AC-123",
+      "evidence_count": 1,
+      "evidences": [
+        {
+          "evidence_piece": "test",
+          "score": 0.7,
+          "reasoning": "aaaaa",
+          "source_type": "jira_comment"
+        }
+      ]
+    }
+  ]
+}

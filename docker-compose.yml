@@ -1,16 +1,18 @@
-
 services:
-  spring-app:
+  spring-app1:
     build: .
-    container_name: shoply-store
+    container_name: test
     ports:
-      - "8080:8080"
+      - "8081:8080"
     depends_on:
       - postgres
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/shoplydb
       SPRING_DATASOURCE_USERNAME: rakuen
       SPRING_DATASOURCE_PASSWORD: 123456
+    #      SPRING_QUARTZ_SCHEDULER_NAME: Quartz1
+    volumes:
+      - ./app_data:/ap
 
   postgres:
     image: postgres:15

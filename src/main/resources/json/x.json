@@ -1,0 +1,39 @@
+{
+  "fullName": "John Doe",
+  "age": 30,
+  "averageScore": 4.75,
+
+  "isOnline": true,
+  "emailVerified": false,
+
+  "extraInfo": null,
+
+  "numberList": [1, 2, 3, 4],
+  "mixedList": ["text", 99, true, null],
+
+  "mainUser": {
+    "username": "admin",
+    "userId": 1,
+    "isActive": true
+  },
+
+  "users": [
+    {
+      "name": "Alice",
+      "enabled": true
+    },
+    {
+      "name": "Bob",
+      "enabled": false
+    }
+  ],
+
+  "systemSettings": {
+    "level1": {
+      "level2Numbers": [10, 20, 30]
+    }
+  },
+
+  "emptyList": [],
+  "emptyObject": {}
+}

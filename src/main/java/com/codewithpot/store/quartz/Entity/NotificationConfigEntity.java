@@ -1,5 +1,6 @@
 package com.codewithpot.store.quartz.Entity;
 
+import com.codewithpot.store.quartz.dto.RecipientType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
