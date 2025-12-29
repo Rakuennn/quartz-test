@@ -1,0 +1,261 @@
+{
+    "display_name": "Basic Communication",
+    "icon": "💬",
+    "order": 999,
+    "theme": {
+        "primary": "#673AB7",
+        "dark": "#512DA8",
+        "light": "#EDE7F6",
+        "lighter": "#D1C4E9",
+        "text": "#283593",
+        "bg": "#F3E5F5",
+        "pre_bg": "#FBF7FF",
+        "border": "#D1C4E9",
+        "stat_bg": "#E8EAF6"
+    },
+    "criteria": {
+        "BC1": {
+            "title": "Summarization & Perspective Reporting",
+            "thai": "สรุปเนื้อหาและมุมมองจากการประชุม\/การนำเสนอในรูปแบบรายงานที่สอดคล้องกับบทบาท",
+            "english": "Summarize meeting\/presentation content and viewpoints into reports aligned with role and experience",
+            "keywords": [
+                "summary",
+                "summarize",
+                "recap",
+                "minutes",
+                "MoM",
+                "notes",
+                "report",
+                "takeaways",
+                "perspective",
+                "conclusion",
+                "align",
+                "meeting",
+                "presentation",
+                "สรุป",
+                "บันทึกการประชุม",
+                "มุมมอง",
+                "ข้อสรุป",
+                "รายงาน"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "BC2": {
+            "title": "Reasoned Contribution & Feedback Response",
+            "thai": "ร่วมแสดงความคิดเห็นอย่างมีเหตุผล อ้างอิงข้อมูล และโต้ตอบต่อข้อคิดเห็นอย่างเหมาะสม",
+            "english": "Contribute reasoned opinions with references and respond appropriately to feedback",
+            "keywords": [
+                "opinion",
+                "reason",
+                "because",
+                "evidence",
+                "reference",
+                "ref",
+                "source",
+                "cite",
+                "link",
+                "feedback",
+                "respond",
+                "clarify",
+                "counter",
+                "agree",
+                "disagree",
+                "แสดงความคิดเห็น",
+                "เหตุผล",
+                "อ้างอิง",
+                "แหล่งข้อมูล",
+                "ลิงก์",
+                "คำแนะนำ",
+                "ตอบกลับ",
+                "ชี้แจง",
+                "เห็นด้วย",
+                "ไม่เห็นด้วย"
+            ],
+            "sources": [
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "BC3": {
+            "title": "Professional Tone & Delivery (Verbal\/Non-verbal)",
+            "thai": "สื่อสารอย่างสุภาพ เหมาะสม ทั้งวาจาและท่าทาง ต่อทีมภายในและภายนอก ในสถานการณ์หลากหลาย",
+            "english": "Maintain polite, appropriate verbal and non-verbal communication with internal\/external parties across situations",
+            "keywords": [
+                "polite",
+                "professional",
+                "respectful",
+                "tone",
+                "courteous",
+                "nonverbal",
+                "gesture",
+                "calm",
+                "de-escalate",
+                "stress",
+                "email etiquette",
+                "empathy",
+                "สุภาพ",
+                "เหมาะสม",
+                "มารยาท",
+                "น้ำเสียง",
+                "ท่าทาง",
+                "เคารพ",
+                "ผ่อนคลายสถานการณ์",
+                "มารยาทอีเมล",
+                "เอาใจใส่"
+            ],
+            "sources": [
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "BC4": {
+            "title": "Presentation & Artefact Creation for Alignment",
+            "thai": "จัดทำสไลด์\/เอกสาร\/แบบฟอร์ม (เช่น แบบสอบถาม รายงานสถานะ คู่มือ) เพื่อให้ทีมมีความเข้าใจตรงกัน",
+            "english": "Create presentations and forms (e.g., surveys, status reports, manuals) using available tools to align understanding",
+            "keywords": [
+                "presentation",
+                "slide",
+                "deck",
+                "ppt",
+                "keynote",
+                "report",
+                "weekly status",
+                "WSR",
+                "user manual",
+                "survey",
+                "form",
+                "template",
+                "document",
+                "doc",
+                "guide",
+                "spec",
+                "สไลด์",
+                "การนำเสนอ",
+                "รายงานสถานะ",
+                "แบบฟอร์ม",
+                "แบบสอบถาม",
+                "เอกสาร",
+                "คู่มือ",
+                "แม่แบบ"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        }
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "display_name": "Advanced Communication",
+    "icon": "📣",
+    "order": 999,
+    "competency_level": 3,
+    "theme": {
+        "primary": "#0066CC",
+        "dark": "#004C99",
+        "light": "#E6F0FF",
+        "lighter": "#D6E6FF",
+        "text": "#0D265C",
+        "bg": "#F5F9FF",
+        "pre_bg": "#FAFCFF",
+        "border": "#D6E6FF",
+        "stat_bg": "#E3F2FD"
+    },
+    "criteria": {
+        "AC1": {
+            "title": "Complex Cross-Team Summarization",
+            "thai": "สรุปเนื้อหา\/มุมมองจากการประชุมที่ซับซ้อนหรือข้ามแผนก\/ผู้เข้าร่วมหลากหลาย",
+            "english": "Summarize complex, cross-department meetings with clear viewpoints and next steps",
+            "keywords": [
+                "summary",
+                "MoM",
+                "minutes",
+                "recap",
+                "cross-functional",
+                "stakeholder",
+                "alignment",
+                "action items",
+                "สรุป",
+                "บันทึกการประชุม",
+                "ข้ามแผนก",
+                "ผู้มีส่วนได้ส่วนเสีย",
+                "ประเด็นสำคัญ",
+                "ถัดไป"
+            ],
+            "sources": [
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AC2": {
+            "title": "Audience-Tuned Presenting of Change\/Analysis",
+            "thai": "นำเสนอแผน\/โครงการ\/ผลวิเคราะห์สำคัญ ปรับรูปแบบให้เหมาะกับกลุ่มเป้าหมายและช่องทางข้ามทีม",
+            "english": "Present key changes\/analyses tailored to audience and familiar cross-team channels",
+            "keywords": [
+                "audience",
+                "tailor",
+                "messaging",
+                "storytelling",
+                "channel",
+                "exec summary",
+                "stakeholder update",
+                "WSR",
+                "summary report",
+                "analysis report",
+                "ผู้ฟัง",
+                "ปรับการสื่อสาร",
+                "เล่าเรื่อง",
+                "สรุปผู้บริหาร",
+                "อัปเดตผู้เกี่ยวข้อง",
+                "รายงานสถานะ",
+                "สรุปรายงาน",
+                "รายงานวิเคราะห์"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AC3": {
+            "title": "Crisis Communication & Rapid Response",
+            "thai": "ควบคุมการสื่อสารในภาวะวิกฤติ ต้องตอบสนองเร่งด่วน\/เปลี่ยนแผนทันที",
+            "english": "Control communications during crises; drive swift responses and immediate plan changes",
+            "keywords": [
+                "incident",
+                "crisis",
+                "urgent",
+                "escalation",
+                "bridge call",
+                "status page",
+                "impact",
+                "ETA",
+                "workaround",
+                "postmortem",
+                "PIR",
+                "เหตุวิกฤติ",
+                "ด่วน",
+                "ยกระดับ",
+                "สื่อสารสถานะ",
+                "ผลกระทบ",
+                "เวลาคาดการณ์",
+                "ทางแก้ชั่วคราว",
+                "ทบทวนเหตุการณ์"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AC4": {
+            "title": "Clear, Confident Delivery",
+            "thai": "สื่อสารชัดเจน ฉะฉาน ในประชุม\/ 1-on-1\/ อีเมล\/ ข้อความ",
+            "english": "Communicate clearly, concisely, and confidently across meetings, 1-on-1s, email, and chat",
+            "keywords": [
+                "clarity",
+                "concise",
+                "confidence",
+                "assertive",
+                "structure",
+                "TL;DR",
+                "call to action",
+                "CTA",
+                "ชัดเจน",
+                "กระชับ",
+                "มั่นใจ",
+                "กล้าแสดงความเห็น",
+                "โครงสร้าง",
+                "สรุปสั้น",
+                "เชิญชวนให้ลงมือ"
+            ],
+            "sources": [
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AC5": {
+            "title": "Complex Presentation & Visualization",
+            "thai": "จัดทำสไลด์\/รายงานที่ซับซ้อน ใช้เครื่องมือสื่อสารให้ทีม\/ข้ามทีม\/ผู้บริหารระดับต้นเข้าใจตรงกัน",
+            "english": "Create complex decks\/reports with effective visuals for teams and junior execs to align",
+            "keywords": [
+                "presentation",
+                "deck",
+                "data visualization",
+                "dashboard",
+                "narrative",
+                "structure",
+                "appendix",
+                "WSR",
+                "summary",
+                "analysis",
+                "สไลด์",
+                "ภาพข้อมูล",
+                "แดชบอร์ด",
+                "โครงเรื่อง",
+                "โครงสร้างเนื้อหา",
+                "ภาคผนวก",
+                "รายงานสถานะ",
+                "รายงานสรุป",
+                "รายงานวิเคราะห์"
+            ],
+            "sources": [],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 10,
+            "total_evaluations_allowed": 25
+        },
+        "AC6": {
+            "title": "Feedback-Responsive Communication",
+            "thai": "เปิดรับ feedback และปรับการสื่อสารให้คู่สนทนารู้สึกได้รับการยอมรับ\/เห็นคุณค่า",
+            "english": "Welcome feedback and adapt communication so others feel heard and valued",
+            "keywords": [
+                "feedback",
+                "acknowledge",
+                "incorporate",
+                "adjust messaging",
+                "tone",
+                "follow-up",
+                "next iteration",
+                "ข้อเสนอแนะ",
+                "รับฟัง",
+                "นำไปปรับใช้",
+                "ปรับโทน",
+                "ติดตามผล",
+                "รอบถัดไป"
+            ],
+            "sources": [],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 10,
+            "total_evaluations_allowed": 25
+        }
+    }
+}

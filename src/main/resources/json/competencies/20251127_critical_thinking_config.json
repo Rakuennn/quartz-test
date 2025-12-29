@@ -1,0 +1,310 @@
+{
+    "display_name": "Critical Thinking",
+    "icon": "🧠",
+    "order": 999,
+    "theme": {
+        "primary": "#FF7043",
+        "dark": "#F4511E",
+        "light": "#FFE0B2",
+        "lighter": "#FFCCBC",
+        "text": "#4E342E",
+        "bg": "#FFF3E0",
+        "pre_bg": "#FFF8F1",
+        "border": "#FFE0B2",
+        "stat_bg": "#FBE9E7"
+    },
+    "criteria": {
+        "CT1": {
+            "title": "Deep Analysis, Integration & Decomposition",
+            "thai": "ตรวจสอบ\/บูรณาการ\/วิเคราะห์เชิงลึก แยกประเด็นซับซ้อนให้อยู่ในรูปที่จัดการ\/วางแผนต่อได้",
+            "english": "Verify, integrate, and analyze deeply; decompose complex issues into manageable, plannable components",
+            "keywords": [
+                "analyze",
+                "analysis",
+                "deep dive",
+                "integrate",
+                "synthesize",
+                "verify",
+                "validate",
+                "breakdown",
+                "decompose",
+                "structure",
+                "plan",
+                "work plan",
+                "mapping",
+                "architecture",
+                "วิเคราะห์",
+                "เชิงลึก",
+                "บูรณาการ",
+                "ตรวจสอบ",
+                "ยืนยันความถูกต้อง",
+                "แยกประเด็น",
+                "ย่อยงาน",
+                "วางแผน",
+                "โครงสร้าง"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "CT2": {
+            "title": "Design Practical Long-term Solutions",
+            "thai": "วิเคราะห์และพัฒนาวิธีการแก้ปัญหาระยะยาวที่ทำได้จริง",
+            "english": "Analyze and design viable long-term solutions that are implementable",
+            "keywords": [
+                "long-term",
+                "sustainable",
+                "strategy",
+                "solution design",
+                "feasible",
+                "implementable",
+                "standardize",
+                "refactor",
+                "process improvement",
+                "continuous improvement",
+                "Kaizen",
+                "ระยะยาว",
+                "ยั่งยืน",
+                "กลยุทธ์",
+                "ออกแบบวิธีแก้",
+                "ทำได้จริง",
+                "มาตรฐาน",
+                "ปรับปรุงกระบวนการ",
+                "ปรับโครงสร้าง"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "CT3": {
+            "title": "Root Cause & Impact Analysis",
+            "thai": "ระบุสาเหตุราก (Root cause) แนวทางแก้ และผลกระทบเชิงบวก\/ลบต่อโครงการและผู้มีส่วนได้ส่วนเสีย",
+            "english": "Identify root cause, corrective actions, and positive\/negative impacts on project and stakeholders",
+            "keywords": [
+                "root cause",
+                "RCA",
+                "5 Whys",
+                "fishbone",
+                "原因",
+                "impact analysis",
+                "blast radius",
+                "corrective action",
+                "preventive action",
+                "CAPA",
+                "trade-off",
+                "decision log",
+                "สาเหตุราก",
+                "วิเคราะห์สาเหตุ",
+                "ผลกระทบ",
+                "แนวทางแก้ไข",
+                "ป้องกัน",
+                "ชั่งน้ำหนัก",
+                "บันทึกการตัดสินใจ"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "CT4": {
+            "title": "Risk\/Benefit Evaluation & Proactive Prevention",
+            "thai": "วิเคราะห์ความเสี่ยง\/ผลประโยชน์จากหลายแหล่งเพื่อหาแนวทางป้องกันปัญหาเชิงรุก",
+            "english": "Evaluate risks\/benefits across sources to propose proactive prevention and mitigation",
+            "keywords": [
+                "risk assessment",
+                "risk register",
+                "mitigation",
+                "early warning",
+                "monitoring",
+                "cost-benefit",
+                "trade-off",
+                "scenario",
+                "what-if",
+                "leading indicators",
+                "preventive plan",
+                "ความเสี่ยง",
+                "ผลประโยชน์",
+                "ประเมินความเสี่ยง",
+                "บรรเทาความเสี่ยง",
+                "สัญญาณเตือน",
+                "เชิงรุก",
+                "ป้องกันล่วงหน้า"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "CT5": {
+            "title": "Complex Change Request Handling & Prioritization",
+            "thai": "จัดการ Change Request ที่ซับซ้อนอย่างยืดหยุ่น ตอบสนองต่อความต้องการและลำดับความสำคัญ",
+            "english": "Handle complex change requests with flexibility; respond to needs and shifting priorities",
+            "keywords": [
+                "change request",
+                "CR",
+                "scope change",
+                "impact assessment",
+                "prioritization",
+                "MoSCoW",
+                "backlog refinement",
+                "risk to schedule",
+                "adaptive plan",
+                "contingency",
+                "stakeholder alignment",
+                "คำขอเปลี่ยนแปลง",
+                "ปรับขอบเขต",
+                "ประเมินผลกระทบ",
+                "จัดลำดับความสำคัญ",
+                "ยืดหยุ่น",
+                "แผนสำรอง",
+                "สื่อสารผู้เกี่ยวข้อง"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        }
+    }
+}

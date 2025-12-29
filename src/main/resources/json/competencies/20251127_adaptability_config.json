@@ -1,0 +1,313 @@
+{
+    "display_name": "Adaptability & Flexibility",
+    "icon": "🔄",
+    "order": 999,
+    "competency_level": 2,
+    "theme": {
+        "primary": "#FF5722",
+        "dark": "#d32f2f",
+        "light": "#ffebe9",
+        "lighter": "#ffcdd2",
+        "text": "#d84315",
+        "bg": "#fbe9e7",
+        "pre_bg": "#fff8f6",
+        "border": "#ffccbc",
+        "stat_bg": "#fbe9e7"
+    },
+    "criteria": {
+        "AD1": {
+            "title": "Process Improvement Opinion",
+            "thai": "แสดงความคิดเห็นในการปรับปรุงกระบวนการทำงาน, เปรียบเทียบข้อดี, ข้อควรปรับปรุงได้",
+            "english": "Express opinions on process improvement, comparing advantages and areas for improvement",
+            "keywords": [
+                "improve",
+                "process",
+                "better",
+                "enhance",
+                "optimize",
+                "compare",
+                "advantage",
+                "disadvantage",
+                "suggestion"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AD2": {
+            "title": "Situational Task Execution",
+            "thai": "ดำเนินงานตามสิ่งที่ได้รับมอบหมายขึ้นอยู่กับสถานการณ์ที่เกิดขึ้น(เฉพาะกิจ) เช่น การเข้าแคมป์เพื่อพัฒนาตัวเอง ,การ role play interview ,การทำ Competency เป็นต้น",
+            "english": "Execute situational assignments based on circumstances (ad-hoc) such as development camps, role play interviews, competency work, etc.",
+            "keywords": [
+                "camp",
+                "training",
+                "workshop",
+                "role play",
+                "interview",
+                "competency",
+                "development",
+                "ad-hoc",
+                "special"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AD3": {
+            "title": "Technology & Process Learning",
+            "thai": "มีส่วนร่วมในการใช้งาน, เรียนรู้เทคโนโลยีหรือกระบวนการใหม่ๆ ได้",
+            "english": "Participate in using and learning new technologies or processes",
+            "keywords": [
+                "technology",
+                "new",
+                "learn",
+                "tool",
+                "system",
+                "framework",
+                "method",
+                "approach",
+                "adopt"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AD4": {
+            "title": "Uncertain Situation Solutions",
+            "thai": "นำเสนอ solution เพื่อแก้ไขสถานการณ์ที่ไม่แน่นอน หรือ unplanned tasks ได้",
+            "english": "Propose solutions for uncertain situations or unplanned tasks",
+            "keywords": [
+                "solution",
+                "propose",
+                "suggest",
+                "uncertain",
+                "unplanned",
+                "unexpected",
+                "emergency",
+                "fix",
+                "resolve"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 20,
+            "total_evaluations_allowed": 25
+        },
+        "AD5": {
+            "title": "Uncertain Situation Implementation",
+            "thai": "ลงมือปฏิบัติงาน เพื่อแก้ไขสถานการณ์ที่ไม่แน่นอน หรือ unplanned tasks ได้",
+            "english": "Take action to resolve uncertain situations or unplanned tasks",
+            "keywords": [
+                "implement",
+                "execute",
+                "action",
+                "handle",
+                "deal",
+                "manage",
+                "respond",
+                "react",
+                "tackle"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 10,
+            "total_evaluations_allowed": 15
+        },
+        "AD6": {
+            "title": "Work Method & Plan Adjustment",
+            "thai": "ปรับวิธีการทำงานหรือแผนงาน เพื่อให้ได้ผลลัพธ์ตามสถานการณ์ที่เปลี่ยนแปลงได้",
+            "english": "Adjust work methods or plans to achieve results according to changing situations",
+            "keywords": [
+                "adjust",
+                "adapt",
+                "modify",
+                "change",
+                "flexible",
+                "pivot",
+                "revise",
+                "alter",
+                "shift"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 10,
+            "total_evaluations_allowed": 15
+        }
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "display_name": "Leadership & Influence",
+    "icon": "⭐️",
+    "order": 999,
+    "theme": {
+        "primary": "#E91E63",
+        "dark": "#C2185B",
+        "light": "#F8BBD0",
+        "lighter": "#FCE4EC",
+        "text": "#880E4F",
+        "bg": "#FFF0F6",
+        "pre_bg": "#FFF7FA",
+        "border": "#F8BBD0",
+        "stat_bg": "#F3E5F5"
+    },
+    "criteria": {
+        "LI1": {
+            "title": "Timely & Effective Decision-Making",
+            "thai": "ตัดสินใจได้ทันเวลาและมีประสิทธิภาพภายในขอบเขตความรับผิดชอบ",
+            "english": "Make timely, effective decisions within scope of responsibility",
+            "keywords": [
+                "decide",
+                "decision",
+                "trade-off",
+                "prioritize",
+                "ownership",
+                "accountable",
+                "escalate",
+                "deadline",
+                "time-bound",
+                "impact",
+                "ตัดสินใจ",
+                "ตัดสินใจทันเวลา",
+                "ชั่งน้ำหนัก",
+                "จัดลำดับความสำคัญ",
+                "ความรับผิดชอบ",
+                "รับผิดชอบ",
+                "ยกระดับ",
+                "เส้นตาย",
+                "ผลกระทบ"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "LI2": {
+            "title": "Process & Guideline Enablement",
+            "thai": "แนะนำกระบวนการหรือเขียนแนวทางเพื่อให้ทีมแบ่งเบาหรือดำเนินการแทน (ยกระดับความท้าทายให้สมาชิก)",
+            "english": "Introduce processes\/guidelines so the team can take over and grow in responsibility",
+            "keywords": [
+                "process",
+                "SOP",
+                "guideline",
+                "playbook",
+                "runbook",
+                "checklist",
+                "template",
+                "standardize",
+                "delegate",
+                "empower",
+                "scale",
+                "handover",
+                "กระบวนการ",
+                "แนวทาง",
+                "คู่มือการทำงาน",
+                "มาตรฐาน",
+                "แบบฟอร์ม",
+                "เช็กลิสต์",
+                "มอบหมาย",
+                "เสริมพลัง",
+                "ถ่ายทอดงาน"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "LI3": {
+            "title": "Role-Model Behavior",
+            "thai": "เป็นตัวอย่างที่ดีในการทำงานและการวางตัว",
+            "english": "Model exemplary work habits and professional conduct",
+            "keywords": [
+                "lead by example",
+                "role model",
+                "ethic",
+                "professional",
+                "ownership",
+                "follow-through",
+                "punctual",
+                "quality bar",
+                "code of conduct",
+                "ทำเป็นตัวอย่าง",
+                "แบบอย่าง",
+                "จรรยาบรรณ",
+                "มืออาชีพ",
+                "รับผิดชอบงาน",
+                "ทำจนเสร็จ",
+                "ตรงเวลา",
+                "มาตรฐานคุณภาพ",
+                "วินัย"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "LI4": {
+            "title": "Team Member Development",
+            "thai": "พัฒนาสมาชิกในทีม",
+            "english": "Develop team members (coaching, mentoring, growth opportunities)",
+            "keywords": [
+                "coach",
+                "mentor",
+                "pair",
+                "review",
+                "feedback",
+                "growth plan",
+                "IDP",
+                "career path",
+                "training",
+                "shadowing",
+                "stretch assignment",
+                "โค้ช",
+                "เมนเทอร์",
+                "จับคู่ทำงาน",
+                "รีวิวงาน",
+                "ข้อเสนอแนะ",
+                "แผนพัฒนา",
+                "เส้นทางอาชีพ",
+                "อบรม",
+                "ติดตามพัฒนา",
+                "งานท้าทาย"
+            ],
+            "sources": [
+                "jira_issues",
+                "jira_comments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        }
+    }
+}

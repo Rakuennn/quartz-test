@@ -1,0 +1,231 @@
+{
+    "display_name": "Internal Communication",
+    "icon": "💬",
+    "order": 999,
+    "competency_level": 1,
+    "theme": {
+        "primary": "#4CAF50",
+        "dark": "#388e3c",
+        "light": "#e8f5e9",
+        "lighter": "#c8e6c9",
+        "text": "#388e3c",
+        "bg": "#e8f5e9",
+        "pre_bg": "#f8fffe",
+        "border": "#c8e6c9",
+        "stat_bg": "#e8f5e9"
+    },
+    "criteria": {
+        "IC1": {
+            "title": "Task Inquiry & Understanding",
+            "thai": "สามารถสอบถามรายละเอียดและสรุปเพื่อทำความเข้าใจงานที่ได้รับมอบหมาย",
+            "english": "Able to inquire details and summarize to understand assigned tasks",
+            "keywords": [
+                "ask",
+                "question",
+                "clarify",
+                "understand",
+                "details",
+                "requirement",
+                "scope",
+                "summary",
+                "สอบถาม",
+                "อยากรู้",
+                "เข้าใจ",
+                "กำหนด",
+                "เป้าหมาย",
+                "วัตถุประสงค์"
+            ],
+            "sources": [
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "IC2": {
+            "title": "Progress Updates",
+            "thai": "สามารถอัพเดทงานและความคืบหน้า ที่ได้รับมอบหมายว่าเสร็จสิ้นไปแล้วกี่เปอร์เซ็นต์",
+            "english": "Able to update work and progress, reporting completion percentage of assigned tasks",
+            "keywords": [
+                "update",
+                "progress",
+                "status",
+                "complete",
+                "percent",
+                "%",
+                "finished",
+                "done",
+                "คืบห้น้า",
+                "แจ้ง",
+                "สรุป",
+                "เหลือ",
+                "คาดว่า",
+                "เสร็จ",
+                "กำลังทำ",
+                "รอ"
+            ],
+            "sources": [
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "IC3": {
+            "title": "Task Description to Team",
+            "thai": "สามารถบรรยายรายละเอียดงานที่ได้รับมอบหมายให้ทีมฟังได้อย่างกระชับและชัดเจน",
+            "english": "Able to describe assigned task details to the team concisely and clearly",
+            "keywords": [
+                "explain",
+                "describe",
+                "present",
+                "brief",
+                "clear",
+                "concise",
+                "team",
+                "detail",
+                "รายละเอียด",
+                "เพิ่มเติม",
+                "เปลี่ยนแปลง",
+                "แก้ไข"
+            ],
+            "sources": [
+                "jira_issues",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        },
+        "IC4": {
+            "title": "Problem Communication",
+            "thai": "สามารถอธิบายปัญหาที่พบในขณะทำงานเพื่อหาแนวทางในการแก้ปัญหาร่วมกันกับสมาชิกในทีมได้",
+            "english": "Able to explain problems encountered during work to find solutions collaboratively with team members",
+            "keywords": [
+                "problem",
+                "issue",
+                "explain",
+                "help",
+                "solve",
+                "collaborate",
+                "team",
+                "solution",
+                "แก้ไข",
+                "ปัญหา",
+                "แนวทาง",
+                "วิธีการ",
+                "ติดตาม",
+                "สอบถาม",
+                "ช่วย"
+            ],
+            "sources": [
+                "jira_comments",
+                "teams_segments"
+            ],
+            "source_scoring": {
+                "jira_issues": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "jira_comments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "teams_segments": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "documents": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "ATS_Journey": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                },
+                "IDP": {
+                    "maximum_score_per_evaluation": 1,
+                    "accepted_min_score": 0.6
+                }
+            },
+            "maximum_score": 25,
+            "total_evaluations_allowed": 30
+        }
+    }
+}
